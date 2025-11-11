@@ -37,5 +37,15 @@ External Dependencies Used:
 - date-fns (for date formatting utilities)
 - lucide-react (for consistent icons)
 
----
+Keyboard Shortcuts:
+------------------
+Sorting:
+  Ctrl/Cmd + 1  → Sort by Twubric Score
+  Ctrl/Cmd + 2  → Sort by Friends
+  Ctrl/Cmd + 3  → Sort by Influence  
+  Ctrl/Cmd + 4  → Sort by Chirpiness
+
+Actions:
+  Escape        → Clear date filters
+
 This is a production-ready React solution demonstrating modern development practices.

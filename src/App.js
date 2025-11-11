@@ -5,6 +5,7 @@ import SortButtons from "./components/SortButtons";
 import { sortFollowers, filterByDateRange } from "./utils/helpers";
 import followersData from "./data/followers.json";
 import "./styles/app.css";
+import { useKeyboardShortcuts } from "./hooks/useKeyboardShortcuts";
 
 function App() {
   const [followers, setFollowers] = useState([]);
@@ -62,6 +63,12 @@ function App() {
     setDisplayFollowers(sortFollowers(followers, "total", "desc"));
     setSortConfig({ by: "total", order: "desc" });
   };
+
+  useKeyboardShortcuts({
+    onSort: handleSort,
+    onRemove: removeFollower,
+    followers: displayFollowers,
+  });
 
   if (loading) {
     return (
