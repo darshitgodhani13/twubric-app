@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "username": "john_tech",
+    "full_name": "John Smith",
+    "twubric": {
+      "total": 7.2,
+      "friends": 2,
+      "influence": 2,
+      "chirpiness": 1
+    },
+    "join_date": 1325376000
+  },
+  {
+    "id": 2,
+    "username": "sarah_codes",
+    "full_name": "Sarah Johnson",
+    "twubric": {
+      "total": 8.5,
+      "friends": 3,
+      "influence": 2,
+      "chirpiness": 2
+    },
+    "join_date": 1451606400
+  },
+  {
+    "id": 3,
+    "username": "mike_dev",
+    "full_name": "Mike Chen",
+    "twubric": {
+      "total": 5.8,
+      "friends": 1,
+      "influence": 1,
+      "chirpiness": 2
+    },
+    "join_date": 1577836800
+  },
+  {
+    "id": 4,
+    "username": "lisa_design",
+    "full_name": "Lisa Wang",
+    "twubric": {
+      "total": 9.1,
+      "friends": 3,
+      "influence": 3,
+      "chirpiness": 3
+    },
+    "join_date": 1274486400
+  }
+]
